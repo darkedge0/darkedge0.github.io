@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initially hide the quote button, article, and header bar
   quoteButton.style.display = "none";
 
-  article.style.filter = 'blur(5px)'; // Set initial article blur
+
 
   // Function to show the quote button and later reveal the article and header bar
   function showQuote() {
