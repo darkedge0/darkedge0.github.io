@@ -86,4 +86,14 @@ document.addEventListener("click", function () {
   }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const quotes = ["社会主义的区别只有分工..", "不要死在昨天..", "你只是历史的奴隶.."]; // Example quote
 
+  function displayRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const quoteButton = document.getElementById("quote-button");
+    quoteButton.textContent = quotes[randomIndex];
+  }
+
+  displayRandomQuote(); // Call this function to display a random quote on load
+});
