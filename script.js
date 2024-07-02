@@ -56,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to show the article and header bar with a fade-in effect and removing blur
   function showArticleAndHeader() {
     article.style.display = "block";
-    article.style.opacity = "0";
     article.style.transition = "opacity 2s, filter 2s";
     video.style.filter = 'blur(10px)'; // Video gradually becomes blurry
     video.style.transition = 'filter 2s'; // Smooth transition for video blur
